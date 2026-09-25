@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Poppins:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap');
+
+:root { --paper: #f8f8fb; --ink: #171927; --navy: #11121d; --muted: #687080; --line: #dfe2eb; --blue: #2d66ff; --blue-deep: #1b4ecf; --display: 'Syne', sans-serif; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); font-family: 'Space Grotesk', sans-serif; }
+button, a { font-family: inherit; }
