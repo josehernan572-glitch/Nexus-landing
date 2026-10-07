@@ -101,6 +101,7 @@
 	.classes-section .spaces-features { grid-template-columns: 1fr; }
 	.space-panel { height: 96px; transition: height .6s cubic-bezier(.65, 0, .35, 1); }
 	.space-panel.active { flex: none; height: 320px; }
+	.app-section:before { top: 56%; }
 }
 
 /* ===== Animations ===== */
@@ -171,7 +172,7 @@ section[id] { scroll-margin-top: 90px; }
 	.mobile-menu .nav-action { margin-top: 16px; text-align: center; }
 
 	/* Team: pull the trainer info up over the faded bottom of the photo */
-	.trainer-info { position: relative; z-index: 1; margin-top: -70px; }
+	.trainer-info { position: relative; z-index: 1; margin-top: -20px; }
 }
 
 /* Mobile: El Estudio title above the carousel */
