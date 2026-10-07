@@ -24,7 +24,6 @@ const REVEAL_GROUPS: [string, 'up' | 'left' | 'right' | 'zoom', boolean][] = [
   ['.app-preview', 'zoom', false],
   ['.app-features li', 'right', true],
   ['.map-embed', 'right', false],
-  ['.footer > *', 'up', true],
 ];
 const STUDIO_COORDS: L.LatLngTuple = [10.4804714, -66.8623474];
 
